@@ -14,7 +14,7 @@ with open('scaler.pkl', 'rb') as scaler_file:
 
 
 st.set_page_config(page_title="Bank Customer Churn Prediction", layout="wide")
-st.title("Bank Customer Churn Prediction 🏦")
+st.title("Bank Customer Churn Prediction")
 st.write("This app predicts whether a customer is likely to churn based on their details.")
 
 
@@ -72,4 +72,5 @@ if st.button("Predict Churn"):
         st.write(f"**Churn Probability:** {prediction_proba[0][1] * 100:.2f}%")
     else:
         st.success(f"**This customer is UNLIKELY to churn.**")
+
         st.write(f"**Churn Probability:** {prediction_proba[0][1] * 100:.2f}%")
