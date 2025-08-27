@@ -1,0 +1,1 @@
+Churn Prediction System that identifies which customers are likely to stop using a service. This kind of model is crucial in industries like telecom, SaaS, and banking where retaining customers is more profitable than acquiring new ones.
